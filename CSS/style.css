@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  height: 100%;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: #40514e;
+  line-height: 2;
+}
+
+hr {
+  border: none;
+  border-bottom: 6px dotted #eaf6f6;
+  text-align: center;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #66bfbf;
+}
+
+.intro {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.top-container {
+  background-color: #fcf8ec;
+  padding-top: 150px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  height: 90px;
+}
+
+.bottom-container p {
+  color: #eaf6f6;
+  position: relative;
+  top: 40px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile-img,
+.notepad-img,
+.computer-img {
+  width: 150px;
+}
+
+.notepad-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.computer-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.profile-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.profile-text {
+  overflow: hidden;
+}
+
+/* Portfolio  */
+
+.carousel-item img,
+.carousel-item video {
+  width: auto;
+  height: auto;
+  max-width: 70%;
+  margin: 10% auto;
+  display: block;
+}
+
+#vid {
+  max-width: 30%;
+}
